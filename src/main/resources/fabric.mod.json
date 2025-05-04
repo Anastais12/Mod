@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "strike",
+	"version": "${version}",
+	"name": "Strike",
+	"description": "Just a 2011 kiddo trying to make the perfect minecraft mod!",
+	"authors": [
+		"cl1ppz12 : Developer"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Cl1ppz12"
+	},
+	"license": "MIT",
+	"icon": "assets/strike/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cl1ppz12.strike.Strike"
+		],
+		"fabric-datagen": [
+			"com.cl1ppz12.strike.StrikeDataGenerator"
+		],
+		"client": [
+			"com.cl1ppz12.strike.client.StrikeClient"
+		]
+	},
+	"mixins": [
+		"strike.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

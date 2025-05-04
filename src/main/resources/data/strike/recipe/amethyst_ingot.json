@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "strike:amethyst_ingot"
+  },
+  "experience": 1,
+  "cookingtime": 78
+}

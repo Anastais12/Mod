@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "raw_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "strike:amethyst_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "display": {
+    "icon": {
+      "item": "strike:amethyst_ingot"
+    },
+    "title": {
+      "text": "When Did This Got Added ?"
+    },
+    "description": {
+      "text": "You have collected an Amethyst Ingot!"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task"
+  }
+}

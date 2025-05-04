@@ -1,0 +1,16 @@
+{
+  "itemGroup.strike": "Strike Tab",
+
+  "item.strike.amethyst_ingot": "\u00A75Amethyst Ingot",
+
+  "item.strike.pressing_table": "Pressing Table",
+  "block.strike.pressing_table": "Pressing Table",
+
+  "item.strike.scythe": "\u00A74Scythe",
+
+  "key.category.strike.controls": "Strike Controls",
+  "key.strike.jump": "Jump Boost Ability",
+  "key.strike.dash": "Dash Ability",
+  "key.strike.zoom": "Zoom"
+
+}

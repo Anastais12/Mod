@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "strike:rice"
+  ],
+  "result": {
+    "id": "strike:cooked_rice"
+  },
+  "experience": 1,
+  "cookingtime": 78
+}
